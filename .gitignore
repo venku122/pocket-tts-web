@@ -82,6 +82,9 @@ profile_output*
 *.model
 *.pt
 
+# in_the_browser local assets
+in_the_browser/assets/models/
+
 # Agents files, use a symlink to AGENTS.md instead. 
 CLAUDE.md
 QWEN.md

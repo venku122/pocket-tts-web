@@ -1,0 +1,19 @@
+{
+  "sampleRate": 24000,
+  "voiceStateShape": [1, 256, 80],
+  "streamStep": {
+    "inputs": {
+      "tokens": "tokens",
+      "voiceState": "voice_state",
+      "kvCache": ["k_cache_0", "v_cache_0"]
+    },
+    "outputs": {
+      "nextLatents": "next_latents",
+      "kvCache": ["k_cache_0_out", "v_cache_0_out"]
+    }
+  },
+  "decoder": {
+    "inputs": { "latents": "latents" },
+    "outputs": { "pcm": "pcm" }
+  }
+}
